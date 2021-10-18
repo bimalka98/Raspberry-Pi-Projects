@@ -2,15 +2,23 @@
 
 ## Accessing the Rpi through the command prompt for the first time(with Rpi OS installation)
 
+***Watch these videos first to know how to install rpi OS and configure the pi to autoconnect to the local wifi network at booting***
+
+- [Setup Raspberry PI OS with SSH and WIFI the NEW (3/2021) Easy Way](https://youtu.be/nZyyfJYOhbM) ; 
+- [Setup raspberry pi without monitor | Raspberry pi SSH/VNC remote access | Setup VNC server](https://youtu.be/AZj2uON6JaI)
+
 1. Open command prompt and type following command.
 
+###  Input
+
 ```shell
-// comment: rpibimalka98 is the hostname of my raspberry pi
 
-C:\Users\bimal>ssh pi@rpibimalka98
+C:\Users\user>ssh pi@rpibimalka98 # rpibimalka98 is the hostname of my raspberry pi
 pi@rpibimalka98s password: YOUR_PASSWORD_HERE
+```
 
-
+###  Output
+```shell
 Linux rpibimalka98 5.10.17-v7+ #1414 SMP Fri Apr 30 13:18:35 BST 2021 armv7l
 
 The programs included with the Debian GNU/Linux system are free software;
@@ -20,11 +28,17 @@ individual files in /usr/share/doc/*/copyright.
 Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
 permitted by applicable law.
 Last login: Tue Oct 19 00:58:16 2021 from fe80::6028:c37b:5f67:e81d%wlan0
+```
 
-// Initializing the VNC server inside the pi
+###  Input
+
+```shell
+# Initializing the VNC server inside the pi
 pi@rpibimalka98:~ $ vncserver
+```
 
-
+###  Output
+```shell
 VNC(R) Server 6.7.2 (r42622) ARMv6 (May 13 2020 19:34:20)
 Copyright (C) 2002-2020 RealVNC Ltd.
 RealVNC and VNC are trademarks of RealVNC Ltd and are protected by trademark
@@ -52,7 +66,10 @@ New desktop is rpibimalka98:2 (192.168.x.xxx:x)
 
 ```
 
-2. Now open VNC viewer and type the server s ip produced by the above last command!
-3. Provide the login credentials
+2. Now open VNC viewer and type the server's ip produced by the above last command! -> 192.168.x.xxx:x
+
+3. Provide the login credentials when asked
 - username: pi 
 - password: YOUR_PASSWORD_HERE
+
+4. That's it. You are in!
