@@ -1,5 +1,13 @@
 # Raspberry-Pi-Projects
 
+<a href="https://www.raspberrypi.org"><img src="https://www.raspberrypi.org/wp-content/uploads/2012/03/raspberry-pi-logo.png" alt="Raspberry Pi Logo" align="left" style="margin-right: 25px" height=150></a>
+
+> The Raspberry Pi is a series of credit card-sized single-board computers developed in the United Kingdom by the Raspberry Pi Foundation to promote the teaching of basic computer science in schools and developing countries. Official Link: [Raspberry Pi Homepage](https://raspberrypi.org)
+
+This repository contains projects related to RPis that are being done along with the [SPARK@UOM](https://ent.uom.lk/spark/)
+
+---
+
 ## *Accessing the Rpi through the command prompt for the first time(with Rpi OS installation)*
 
 ***Watch these videos first to know how to install rpi OS and configure the pi to autoconnect to the local wifi network at booting***
