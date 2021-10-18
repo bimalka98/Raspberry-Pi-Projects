@@ -1,6 +1,6 @@
 # Raspberry-Pi-Projects
 
-## Accessing the Rpi through the command prompt for the first time(with Rpi OS installation)
+## *Accessing the Rpi through the command prompt for the first time(with Rpi OS installation)*
 
 ***Watch these videos first to know how to install rpi OS and configure the pi to autoconnect to the local wifi network at booting***
 
@@ -73,3 +73,9 @@ New desktop is rpibimalka98:2 (192.168.x.xxx:x)
 - password: YOUR_PASSWORD_HERE
 
 4. That's it. You are in!
+
+---
+ 
+##  A curated list of awesome Raspberry Pi tools, projects, images and resources
+
+https://github.com/thibmaek/awesome-raspberry-pi
