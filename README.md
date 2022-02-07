@@ -21,19 +21,25 @@ This repository contains projects related to RPis that are being done along with
 
 ```shell
 
-C:\Users\user>ssh pi@rpibimalka98 # rpibimalka98 is the hostname of my raspberry pi
-pi@rpibimalka98s password: YOUR_PASSWORD_HERE
+bimalka98@DEVICE:~$ ssh pi@rpibimalka98
+The authenticity of host 'rpibimalka98 (192.168.8.102)' can't be established.
+ECDSA key fingerprint is SHA256:DHkDrtlf2nwgWS9F0yofVPDFauFG7fqVtH6p2SQTmQE.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'rpibimalka98,192.168.8.102' (ECDSA) to the list of known hosts.
+pi@rpibimalka98's password: YOUR_PASSWORD_HERE
 ```
 
 ###  Output
 ```shell
-Linux rpibimalka98 5.10.17-v7+ #1414 SMP Fri Apr 30 13:18:35 BST 2021 armv7l
-  .
-  .
-  .
+Linux rpibimalka98 5.10.92-v7+ #1514 SMP Mon Jan 17 17:36:39 GMT 2022 armv7l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
 Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
 permitted by applicable law.
-Last login: Tue Oct 19 00:58:16 2021 from fe80::6028:c37b:5f67:e81d%wlan0
+Last login: Fri Jan 28 07:01:06 2022
 ```
 
 ###  Input
